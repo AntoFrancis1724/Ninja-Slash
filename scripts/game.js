@@ -40,7 +40,7 @@ var barbette = function(){
     barbette();
 };
 
-// start game
+// start games
 exports.start = function(){
     snd = sound.create( "sound/throw" );
     boomSnd = sound.create( "sound/boom" );
@@ -135,3 +135,4 @@ message.addEventListener("click", function(){
     gameOver.hide();
     message.postMessage( "home-menu", "sence.switchSence" );
 });
+// Finished 
